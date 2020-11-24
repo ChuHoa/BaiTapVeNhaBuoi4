@@ -29,3 +29,19 @@ for (let i = 0; i < str2.length; i++) {
     
 }
 console.log(str3);
+
+//bài 8
+
+let pro=0;
+function sum(arr){
+    let sum=0;
+    for(let i=0;i<arr.length;i++){
+        sum+=arr[i];
+    }
+}
+function product(arr){
+    let pro=1;
+    for(let i=0;i<arr.length;i++){
+        pro*=arr[i];
+    }
+}
