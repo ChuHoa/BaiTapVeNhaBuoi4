@@ -1,5 +1,3 @@
-
-
 //bai5
 let myColor = ["Red", "Green", "White", "Black"];
 let joi=myColor.join();
@@ -18,3 +16,16 @@ for (let i = 0; i < str.length; i++) {
     
 }
 console.log(str1);
+
+//bai7
+let str2=prompt("Enter input:");
+let str3="";
+for (let i = 0; i < str2.length; i++) {
+    if (str2[i]>="A"&&str2[i]<="Z") {
+        str3+=str2[i].toLowerCase();
+    }else{
+        str3+=str2[i].toUpperCase();
+    }
+    
+}
+console.log(str3);
