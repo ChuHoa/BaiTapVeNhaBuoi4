@@ -31,18 +31,3 @@ console.log(first([7, 9, 0, -2],3));
 console.log(first([7, 9, 0, -2],6));
 console.log(first([7, 9, 0, -2],-3));
 
-//bai4
-// function last(arr,n){    
-//     let arr1=[];
-//     if (n>arr.length) n=arr.length;
-//     else if (n==null) n=1;
-//     for (let i = arr.length-1; i >arr.length-1-n; i++) {
-//        arr1.push(arr[i])
-//     }
-//     return arr1;
-// }
-// console.log(last([7, 9, 0, -2]));
-// console.log(last([],3));
-// console.log(last([7, 9, 0, -2],3));
-// console.log(last([7, 9, 0, -2],6));
-// console.log(last([7, 9, 0, -2],-3));
