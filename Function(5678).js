@@ -43,11 +43,12 @@ function sum(arr){
 function product(arr){
     let pro=1;
     for(let i=0;i<arr.length;i++){
-        pro*=arr[i];
+        pro=pro*arr[i];
     }
     return pro;
 }
 let arr=[1,34,5,2,6,2,1]
 console.log(sum(arr))
-console.log(pro(arr))
+console.log(product(arr))
+
 
